@@ -21,7 +21,7 @@ import { chromium, defineConfig, devices } from '@playwright/test';
   reporter: 'html',
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot : 'on',
     trace : 'on'
   },
